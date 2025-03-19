@@ -55,32 +55,30 @@ const Hero: React.FC = () => {
       
       {/* Content */}
       <div className="container mx-auto max-w-6xl pt-20 md:pt-0 z-10">
-        <div className="max-w-3xl glass-card p-8 md:p-12 rounded-xl">
-          <h1 ref={titleRef} className="text-5xl md:text-6xl lg:text-7xl font-serif font-medium leading-tight mb-6 text-black">
-            <span className="title-part opacity-0 block transform translate-x-[-20px] transition-all duration-700">Creating</span>
-            <span className="title-part opacity-0 block transform translate-x-[-20px] transition-all duration-700">Beautiful Spaces</span>
-            <span className="title-part opacity-0 block transform translate-x-[-20px] transition-all duration-700">That Inspire</span>
-          </h1>
-          
-          <p 
-            ref={subtitleRef} 
-            className="text-lg md:text-xl text-black/90 max-w-xl mb-12 opacity-0 transition-all duration-700"
+        <h1 ref={titleRef} className="text-5xl md:text-6xl lg:text-7xl font-serif font-medium leading-tight mb-6 text-black">
+          <span className="title-part opacity-0 block transform translate-x-[-20px] transition-all duration-700">Creating</span>
+          <span className="title-part opacity-0 block transform translate-x-[-20px] transition-all duration-700">Beautiful Spaces</span>
+          <span className="title-part opacity-0 block transform translate-x-[-20px] transition-all duration-700">That Inspire</span>
+        </h1>
+        
+        <p 
+          ref={subtitleRef} 
+          className="text-lg md:text-xl text-black/90 max-w-xl mb-12 opacity-0 transition-all duration-700"
+        >
+          Interior design portfolio showcasing thoughtful, functional spaces with an aesthetic touch that transforms environments.
+        </p>
+        
+        <div 
+          ref={ctaRef} 
+          className="opacity-0 transform translate-y-8 transition-all duration-700"
+        >
+          <a 
+            href="#projects" 
+            className="inline-flex items-center px-6 py-3 rounded-full bg-white text-primary hover:bg-white/90 transition-colors group"
           >
-            Interior design portfolio showcasing thoughtful, functional spaces with an aesthetic touch that transforms environments.
-          </p>
-          
-          <div 
-            ref={ctaRef} 
-            className="opacity-0 transform translate-y-8 transition-all duration-700"
-          >
-            <a 
-              href="#projects" 
-              className="inline-flex items-center px-6 py-3 rounded-full bg-white text-primary hover:bg-white/90 transition-colors group"
-            >
-              View Projects
-              <ArrowDown size={16} className="ml-2 group-hover:translate-y-1 transition-transform" />
-            </a>
-          </div>
+            View Projects
+            <ArrowDown size={16} className="ml-2 group-hover:translate-y-1 transition-transform" />
+          </a>
         </div>
       </div>
     </section>
