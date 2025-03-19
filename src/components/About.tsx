@@ -40,7 +40,7 @@ const About: React.FC = () => {
                 <span className="inline-block px-3 py-1 text-xs font-medium bg-white/20 text-white rounded-full backdrop-blur-sm mb-2">
                   Interior Designer
                 </span>
-                <h3 className="text-xl font-medium text-white">Olivia Designer</h3>
+                <h3 className="text-xl font-medium text-white">Ghazal Oveys Gharan</h3>
               </div>
             </div>
           </div>

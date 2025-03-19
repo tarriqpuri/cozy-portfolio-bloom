@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0">
             <a href="#" className="text-xl font-serif font-medium">
-              <span className="text-primary">Olivia</span> Design
+              <span className="text-primary">Ghazal</span> Oveys Gharan
             </a>
           </div>
           
@@ -32,7 +32,7 @@ const Footer: React.FC = () => {
         
         <div className="border-t border-gray-100 mt-10 pt-10 text-center md:text-left md:flex md:justify-between items-center">
           <p className="text-sm text-primary/50">
-            © {currentYear} Olivia Design. All rights reserved.
+            © {currentYear} Ghazal Oveys Gharan. All rights reserved.
           </p>
           
           <div className="mt-4 md:mt-0">
