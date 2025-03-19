@@ -56,7 +56,7 @@ const Hero: React.FC = () => {
       {/* Content */}
       <div className="container mx-auto max-w-6xl pt-20 md:pt-0 z-10">
         <div className="max-w-3xl glass-card p-8 md:p-12 rounded-xl">
-          <h1 ref={titleRef} className="text-5xl md:text-6xl lg:text-7xl font-serif font-medium leading-tight mb-6 text-white">
+          <h1 ref={titleRef} className="text-5xl md:text-6xl lg:text-7xl font-serif font-medium leading-tight mb-6 text-black">
             <span className="title-part opacity-0 block transform translate-x-[-20px] transition-all duration-700">Creating</span>
             <span className="title-part opacity-0 block transform translate-x-[-20px] transition-all duration-700">Beautiful Spaces</span>
             <span className="title-part opacity-0 block transform translate-x-[-20px] transition-all duration-700">That Inspire</span>
@@ -64,7 +64,7 @@ const Hero: React.FC = () => {
           
           <p 
             ref={subtitleRef} 
-            className="text-lg md:text-xl text-white/90 max-w-xl mb-12 opacity-0 transition-all duration-700"
+            className="text-lg md:text-xl text-black/90 max-w-xl mb-12 opacity-0 transition-all duration-700"
           >
             Interior design portfolio showcasing thoughtful, functional spaces with an aesthetic touch that transforms environments.
           </p>
